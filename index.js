@@ -39,7 +39,7 @@ async function main() {
 
     const createCsvWriter = require('csv-writer').createObjectCsvWriter;
     const csvWriter = createCsvWriter({
-    path: '2021-09 2021-11 podcast-sponsor.csv',
+    path: 'results/2021-09 2021-11 podcast-sponsor.csv',
     header: [
             {id: 'podcast_name', title: 'Podcast Name'},
             {id: 'episode_title', title: 'Episode Title'},
